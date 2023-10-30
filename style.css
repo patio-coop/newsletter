@@ -1,0 +1,271 @@
+/* STYLESHEET FOR NEWSLETTER */
+
+/*
+TABLE OF CONTENTS:
+1. DESIGN SYSTEM (Sizes and Colors)
+2. GENERAL SELECTORS
+3. HEADER
+4. SECTION 1
+5. SECTION 2
+6. SECTION 3
+7. COLUMNS:
+8. - SECTION 4
+9. - SECTION 5
+10. SECTION 6
+11. FOOTER
+*/
+
+/* DESIGN SYSTEM */
+
+/*
+Sizes:
+
+html {
+  font-size: 100%;
+} (16px)
+
+h1 {
+  font-size: 4.209rem;
+}
+
+h2 {
+  font-size: 3.157rem;
+}
+
+h3 {
+  font-size: 2.369rem;
+}
+
+h4 {
+  font-size: 1.777rem;
+}
+
+h5 {
+  font-size: 1.333rem;
+}
+
+small,
+.text_small {
+  font-size: 0.75rem;
+}
+
+Colors:
+#14ADED
+#08F5DA
+#DE49EC
+#C4FF63
+#FE7637
+#FED237
+rgb(80, 80, 80);
+rgb(111, 111, 111)
+*/
+
+* {
+  font-family: sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 83%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 3.5rem;
+}
+
+h1 {
+  font-size: 5rem;
+  line-height: 1.1;
+  margin-bottom: 1.8rem;
+}
+
+header p,
+a {
+  line-height: 0.8;
+}
+
+.date {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: rgb(80, 80, 80);
+}
+
+section {
+  margin: 0 0 5rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+  padding: 0.5rem;
+  margin-bottom: 1.8rem;
+  border-radius: 20px 20px 0 0;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+strong {
+  font-weight: bold;
+  color: rgb(80, 80, 80);
+}
+
+blockquote {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: rgb(80, 80, 80);
+  font-style: italic;
+  padding: 1rem 6rem 0;
+}
+
+section a {
+  font-weight: bold;
+}
+
+/* SECTION 1 */
+
+.h2-1 {
+  background-color: #14aded;
+  background: linear-gradient(
+    90deg,
+    rgba(20, 173, 237, 1) 70%,
+    rgba(14, 121, 166, 1) 100%
+  );
+}
+
+.section-1 strong {
+  color: #14aded;
+}
+
+/* SECTION 2 */
+
+.h2-2 {
+  background-color: #08f5da;
+  background: linear-gradient(
+    90deg,
+    rgba(8, 245, 218, 1) 70%,
+    rgba(6, 172, 153, 1) 100%
+  );
+}
+
+.section-2 strong {
+  color: #08f5da;
+}
+
+.section-2 img {
+  width: 15%;
+  float: left;
+  margin: 0 3% 3% 0;
+}
+
+/* SECTION 3 */
+
+.h2-3 {
+  background-color: #de49ec;
+  background: linear-gradient(
+    90deg,
+    rgba(222, 73, 236, 1) 70%,
+    rgba(155, 51, 165, 1) 100%
+  );
+}
+
+.section-3 strong {
+  color: #de49ec;
+}
+
+.section-3 img {
+  width: 45%;
+  float: right;
+  margin: 0 0 3% 3%;
+}
+
+/* COLUMNS CONTAINER */
+
+.column-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3%;
+}
+
+/* SECTION 4 */
+
+.section-4 {
+  flex-basis: 450px;
+  flex-grow: 1;
+}
+
+.h2-4 {
+  background-color: #c4ff63;
+  background: linear-gradient(
+    90deg,
+    rgba(196, 255, 99, 1) 70%,
+    rgba(137, 179, 69, 1) 100%
+  );
+}
+
+.section-4 strong {
+  color: #c4ff63;
+}
+
+/* SECTION 5 */
+
+.section-5 {
+  flex-basis: 450px;
+  flex-grow: 1;
+}
+
+.h2-5 {
+  background-color: #fe7637;
+  background: linear-gradient(
+    90deg,
+    rgba(254, 118, 55, 1) 70%,
+    rgba(178, 83, 39, 1) 100%
+  );
+}
+
+.section-5 strong {
+  color: #fe7637;
+}
+
+/* SECTION 6 */
+
+.h2-6 {
+  background-color: #fed237;
+  background: linear-gradient(
+    90deg,
+    rgba(254, 210, 55, 1) 70%,
+    rgba(178, 147, 39, 1) 100%
+  );
+}
+
+.section-6 strong {
+  color: #fed237;
+}
+
+/* FOOTER */
+
+footer {
+  border-top: 0.15rem dashed rgb(111, 111, 111);
+  text-align: center;
+  padding-top: 1.5rem;
+  margin-bottom: 1.6rem;
+}
+
+footer p {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+
+.patio-footer-link {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
